@@ -20,14 +20,20 @@ Before you begin, ensure you have the following installed on your machine:
 
 ## 1. Database Setup
 
-1.  Open your PostgreSQL tool (pgAdmin or command line).
-2.  Create a new database named `smartfin_db`.
-3.  Ensure your PostgreSQL credentials match the ones in `smartfin backend/database.py`. The default configuration is:
-    ```python
-    SQLALCHEMY_DATABASE_URL = "postgresql://postgres:pasan1234@localhost:5432/smartfin_db"
+The easiest way to set up the PostgreSQL database is using **Docker**. A `docker-compose.yml` file is provided in the backend directory.
+
+1.  Make sure you have [Docker Desktop](https://www.docker.com/products/docker-desktop) installed and running.
+2.  Open a terminal and navigate to the backend folder:
+    ```bash
+    cd "smartfin backend"
     ```
-    *(If your password or username is different, update this file accordingly).*
-    *Note: The FastAPI backend uses SQLAlchemy to automatically create the required database tables on startup.*
+3.  Run the following command to download and start the database:
+    ```bash
+    docker-compose up -d
+    ```
+    This will automatically create a PostgreSQL database named `smartfin_db` with the correct username and password (`postgres` / `pasan1234`) on port 5432.
+
+*(Alternatively, you can manually install PostgreSQL and create the database yourself using the credentials found in `smartfin backend/database.py`).*
 
 ---
 
