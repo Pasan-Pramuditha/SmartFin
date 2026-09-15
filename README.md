@@ -47,6 +47,7 @@ The easiest way to set up the PostgreSQL database is using **Docker**. A `docker
     ```bash
     pip install -r requirements.txt
     ```
+    *(This command acts like a shopping list. It automatically downloads and installs all the external libraries, such as FastAPI and scikit-learn, needed to run the backend).*
 3.  **Environment Variables:** Create a `.env` file inside the `smartfin backend` folder and add your Gmail credentials for sending OTP and password reset emails:
     ```env
     SMTP_EMAIL=your_email@gmail.com
