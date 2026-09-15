@@ -10,6 +10,15 @@ SmartFin is a personal finance management application built with **Flutter** for
 
 ---
 
+## Key Features
+*   **AI-Powered Categorization:** Automatically categorizes your expenses using NLP Machine Learning.
+*   **Secure Authentication:** Supports Email/Password, Biometric Login (Fingerprint/FaceID), and Social Logins (Google & Facebook).
+*   **Two-Factor Authentication (2FA):** Enhanced security with email-based OTP verification.
+*   **Financial Insights:** Visualizes income and expenses with interactive charts and graphs.
+*   **Export Reports:** Generate and download detailed financial reports in PDF and Excel formats.
+
+---
+
 ## Prerequisites
 Before you begin, ensure you have the following installed on your machine:
 *   [Flutter SDK](https://docs.flutter.dev/get-started/install) (Version 3.10+)
