@@ -1,4 +1,4 @@
-# SmartFin - Personal Finance & Budgeting App
+# SmartFin – Personal Finance & Expense Tracker with AI Insights
 
 SmartFin is a personal finance management application built with **Flutter** for the mobile frontend and **FastAPI** (Python) for the backend. It features Machine Learning capabilities for automated expense categorization, secure authentication (JWT, 2FA, Social Logins), and detailed financial insights.
 
