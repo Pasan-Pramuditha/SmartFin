@@ -99,5 +99,10 @@ The easiest way to set up the PostgreSQL database is using **Docker**. A `docker
 ---
 
 ## Troubleshooting
-*   **Network Error on Physical Device:** Ensure your phone and computer are on the **exact same Wi-Fi network**, turn off mobile data on the phone, and temporarily disable the Windows Defender Firewall (Private Network) if it blocks port 8000.
 *   **Social Login Not Working:** Ensure the `GOOGLE_CLIENT_ID` in `main.py` and the Flutter configuration matches your Firebase/Google Cloud Console setup.
+
+---
+
+<div align="center">
+  <b>Created By Pasan Pramuditha</b>
+</div>
